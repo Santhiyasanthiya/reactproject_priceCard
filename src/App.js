@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.css"
 
 function App() {
-  let priceCard = [
+  let priceCard= [
     {
       title: "Free",
       price: 0,
@@ -126,7 +126,7 @@ function App() {
             
         },
         {
-            name: "Unlimited Free Subdomain ",
+            name:[<strong>Unlimited</strong>," ", "Free Subdomain"],
             isEnable : true
         },
         {
